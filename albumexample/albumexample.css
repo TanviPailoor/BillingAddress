@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    margin: 10px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.3%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .content{
+    
+        position: relative;
+        /*text-align: center;*/
+        color: black;    
+  }
+  .textoverimage{
+   
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .container1{
+    background-color: rgb(253, 243, 231);
+  }
+  /*heading container*/
+  .container{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+  }
+ .head{
+  font-weight: 600;
+  text-align: center;
+ }
+ .headex{
+ text-align: center;
+ padding: 5px;
+ }
+ .btn0{
+  background-color: blue;
+  border: blue;
+  border-radius: 3px;
+ color: white;
+ }
+ .btn1{
+  background-color: grey;
+  border: grey;
+  border-radius: 3px;
+ color: white;
+ }
+
+ /*buttons*/
+ .time{
+    
+     font-size: 12px;
+     margin-bottom: 5px;
+     float: right;
+  }
+  .btn{
+    margin-top: 0px;
+  }
+  /*bottom container*/
+  .bpara{
+
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
