@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">-->
 <link rel="stylesheet" href="F:\internship\billingaddress\billing.css">
 <style>
 body {
@@ -125,7 +126,7 @@ span.price {
                 <label for="lname"><i class="fa fa-user"></i> Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="">
             </div>
-           </div>
+          </div>
           <label for="username"><i class="fa fu-user"></i> USser Name</label>
           <input type="text" id="uname" name="username" placeholder="username">
           <label for="email"><i class="fa fa-envelope"></i> Email (Optional)</label>
@@ -137,12 +138,26 @@ span.price {
 
             <div class="row">
                 <div class="col-25">
-                  <label for="country">Country</label>
-                  <input type="text" id="state" name="state" placeholder="Choose">
+                  <!--<label for="country">Country</label>
+                  <input type="text" id="state" name="state" placeholder="Choose">-->
+                  <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                    <option selected>choose country</option>
+                    <option value="1">India</option>
+                    <option value="2">USA</option>
+                    <option value="3">UAE</option>
+                  </select>
+                  
+                  
                 </div>
                 <div class="col-25">
-                    <label for="state">State</label>
-                    <input type="text" id="state" name="state" placeholder="Choose">
+                    <!--<label for="state">State</label>
+                    <input type="text" id="state" name="state" placeholder="Choose">-->
+                    <select class="form-select form-select-sm" aria-label="Small select example">
+                      <option selected>choose state</option>
+                      <option value="1">Karnataka</option>
+                      <option value="2">kerala</option>
+                      <option value="3">maharashtra</option>
+                    </select>
                 </div>
                 <div class="col-25">
                   <label for="zip">Zip</label>
