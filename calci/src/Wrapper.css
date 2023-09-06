@@ -1,0 +1,9 @@
+.wrapper {
+    width: 340px;
+    height: 440px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #424243;
+    background-image: linear-gradient(315deg, #454547 0%, 1f103a 74%);
+  }
+  
